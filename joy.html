@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Susrvay Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <h2>Survey For Students</h2>
+   
+    <form id="form">
+        <div class="BackgroudImg">
+        <div class="main">
+           <br>
+        
+       <div  id="foryou">
+        <label for="name" id="lable-name"><b>Name*</b></label>
+        <input class="box" type="text" placeholder="Enter Full Name" >
+       </div>
+       <br>
+       <div id="foryou">
+        <label for="email" id="lable-email"><b>Email*</b></label>
+        <input class="box" type="text" placeholder="Email" >
+       </div>
+       <br>
+       <div >
+              <label for="password" id="lable-password"><b>Password*</b></label><br>
+        
+              <input  id="passbox" type="password" placeholder="Password" value="FakePWS">
+        
+             <input type="checkbox">Show Password
+    
+       </div>
+       <br>
+       <div >
+         <label for="DateOfBirth"><b>Date Of Birth*</b></label>
+         <input type="date" placehold>
+        </div>
+        <br>
+        <div>
+         <label ><b>Who are you?* </b></label><br>
+          <select class="just">
+                <option>Student</option>
+                <option>Professional</option>
+                <option>Intern</option>
+                <option>Others</option>
+            
+          </select>
+       </div>
+       <br>
+       <div id="foryou">
+           <label for=""><b>Would you recommend this survey form to your friends?*</b></label><br>
+           <input type="radio" id="r1" name="y1">Yes <br>
+           <input type="radio" id="r1" name="y1">No
+       </div>
+       <br>
+       <div id="foryou">
+          <label for=""><b>Languages and Frameworks known (Check all that apply)*</b></label><br>
+          <input type="checkbox" >C <br>
+          <input type="checkbox" > C++<br>
+          <input type="checkbox" > C#<br>
+          <input type="checkbox" > Java <br>
+          <input type="checkbox" > Python<br>
+          <input type="checkbox" > Ruby<br>
+          <input type="checkbox" >React<br>
+          <input type="checkbox" >Angular<br>
+          <input type="checkbox" >Django<br> 
+          <input type="checkbox" >Spring<br>
+          <input type="checkbox" >JavaScript<br>
+
+
+       </div>
+       <br>
+       <div id="foryou">
+        <label for=""><b>Any comments and suggetions</b></label><br>
+        <textarea class="yu" id="" cols="65" rows="6" placeholder="Please fill your comments"></textarea>
+       </div>
+       <br>
+       <div>
+          <button id="submit" value="submit">Submit</button>
+       </div>
+    </div>
+</div>
+    
+      
+        
+    </form>
+</body>
+</html>
